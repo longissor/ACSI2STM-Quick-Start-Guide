@@ -39,6 +39,6 @@ ACSI2STM GitHub https://github.com/retro16/acsi2stm
 
 Atari ST pages by PP https://atari.8bitchip.info/
 
-Disk Image with ICD driverhttp://joo.kie.sk/?page_id=332
+Disk Image with ICD driver http://joo.kie.sk/?page_id=332
 
  
