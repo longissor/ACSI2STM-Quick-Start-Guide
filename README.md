@@ -32,8 +32,12 @@ In ACSI mode, ACSI2STM emulates an UltraSatan clock, so you can use UltraSatan t
 When the system is switched off, the STM32 clock is powered by the onboard CR2032 battery so it will keep time even when powered off.
  
 If you want to do more than using microSD card in GemDrive mode, and how to use the card, please refer to the following links:
+
 How to insert a battery https://youtu.be/rgAsQ0IYjlg
+
 ACSI2STM GitHub https://github.com/retro16/acsi2stm
+
 Atari ST pages by PP https://atari.8bitchip.info/
+
 Disk Image with ICD driverhttp://joo.kie.sk/?page_id=332
  
