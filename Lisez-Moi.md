@@ -1,8 +1,8 @@
-#ACSI2STM-Guide De Démarrage Rapide.
+# ACSI2STM-Guide De Démarrage Rapide.
 
 Ce documents explique au plus simple, les étapes recommandées pour faire fonctionner la carte ACSI2STM.
 
-##Pile pour la sauvegarde de la date/heurey
+## Pile pour la sauvegarde de la date/heurey
 
 Avant d’installer la carte, vous pouvez inserer une pile CR2032 dans le support de pile. La pile est utilisée pour la sauvegarde de la date et de l’heure quand l’Atari ST est etteint. Elle n’est pas necessaire au fonctionnement de la partir disque.
 
