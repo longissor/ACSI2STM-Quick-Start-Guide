@@ -6,7 +6,7 @@ Ce documents explique au plus simple, les étapes recommandées pour faire fonct
 
 Avant d’installer la carte, vous pouvez inserer une pile CR2032 dans le support de pile. La pile est utilisée pour la sauvegarde de la date et de l’heure quand l’Atari ST est etteint. Elle n’est pas necessaire au fonctionnement de la partir disque.
 
-##Installation sur le port ACSI DB19
+## Installation sur le port ACSI DB19
 •	Branchez la carte sur le port ACSI à l’arrière du ST. La face avec les composants vers vous. 
 •	Branchez une source 5V sur la prise USB-C de la carte. Vous pouvez utiliser un charge de téléphone avec un câble USB-C.
 
