@@ -7,7 +7,7 @@ Ce documents explique au plus simple, les étapes recommandées pour faire fonct
 Avant d’installer la carte, vous pouvez inserer une pile CR2032 dans le support de pile. La pile est utilisée pour la sauvegarde de la date et de l’heure quand l’Atari ST est etteint. Elle n’est pas necessaire au fonctionnement de la partir disque.
 
 ## 2 - Installation sur le port ACSI DB19
-•	Branchez la carte sur le port ACSI à l’arrière du ST. La face avec les composants vers vous. 
+•	Branchez la carte sur le port ACSI à l’arrière du ST. La face avec les composants vers vous.
 •	Branchez une source 5V sur la prise USB-C de la carte. Vous pouvez utiliser un charge de téléphone avec un câble USB-C.
 
 ## 3A - Utilisation d'une carte microSD au format FAT32 en mode GemDrive.
@@ -30,7 +30,7 @@ En ACSI, la taille des partitions sont limitées par le système d’exploitatio
 256 ou 512Mb pour les autres en fonction de la version du TOS.
 
 Il y a plusieurs méthodes pour configurer une carte SD en mode ACSI. En voila 2 simples.
-v aurez besoin d'un fichier image de disque `img`.
+Vous aurez besoin d'un fichier image de disque `img`.
 
 ### 3B.1  - Utilisation d'un image directement.
 * Formattez une carte microSD sur Windows au format FAT ou FAT32.
