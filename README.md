@@ -14,24 +14,56 @@ See this video on how to insert the battery:
 * Power the unit via the USB-C port.
 * Optionally, you can plug other devices such as an UltraSatan on the IDC20  socket.
  
-### Installing using the UltraSatan port
-If you mounted an IDC20 socket, you can connect the ACSI2STM unit through it instead of the DB19 port. This is useful if you have other IDC20 devices.
-Power the unit via the USB-C port. 
-Using the unit
-Power the unit via its USB-C port. It has no specific power requirements, so any 5V USB-C adapter (or PC) should be able to power the unit.
-Insert any microSD card in its slots (at least the first slot). The SD card can be formatted as FAT32 (SDHC) or ExFAT (SDXC), which are the standard formats for the SD card.
-Turn the ST on, the ACSI2STM unit should display a boot message and the C drive should be readily available on the desktop.
-You need to manually install extra drive icons on the desktop to access the D or E drive.
-
-Using Fat and Fat32 microSD cards is known as “GemDrive” mode. This is the easiest way to use the card. It does not require any driver. The microSD card will be usable on a Windows PC (to transfer files to your Atari for example).
+### Using microSD card formated in FAT32 in GemDrive mode
+Using Fat and Fat32 microSD cards without any other action is known as “GemDrive” mode. This is the easiest way to use the card. It does not require any driver. The microSD card will be usable on a Windows PC (to transfer files to your Atari for example).
+This mode has been tested and known to be working well on Atari ST, STE, Mega ST and Mega STE with TOS equal or above 1.04
+That mode has not been tested on Atari TT030 and Falcon030. The TOS on these machines may not work in GemDrive mode.
  
-Setting date and time
+#### Setting date and time
 In GemDrive mode, you can use any tool to set the date, such as `CONTROL.ACC` or `XCONTROL.ACC`. GemDrive redirects all system calls to the STM32 so the internal clock isn't used anymore.
- 
+
+### Using microSD card ACSI mode
+Use a ready-made ACSI disk image
+If you have a bootable hard disk image, the following sections will describe how to use it.
+
+
+#### Using the image directly
+* Use a SD card formatted for PC (FAT32/ExFAT).
+* Create a folder named `acsi2stm` at the root of the SD card.
+* Copy your image inside that folder.
+* Rename your image `hd0.img`.
+* Insert the SD card in the ACSI2STM unit.
+* Turn everything on.
+* Enjoy.
+The file format is the same used by the Hatari emulator. You can test your image in Hatari: go to the menu, click Hard disks, then click Browse on the first line (ACSI HD 0) then reboot the emulated ST. You can even use the image directly on the SD card by opening hd0.img from within Hatari !
+
+When working with disk images, the SD card can be of any size, as long as it uses a standard filesystem (FAT, FAT32 or ExFAT). The ST only sees the content of the hd0.img file.
+
+You can copy more than one disk image `xxxxx.img` on to the SD card, but only `hd0.img` will be used.
+
+#### Transfering a disk image to a raw SD card
+
+Using a raw SD card is a bit faster than copying the image file.
+
+To transfer images to the disk, you can use
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/):
+
+* Open Raspberry Pi Imager.
+* Click *Choose Os* under *Operating System*.
+* Select *Use custom* in the list.
+* Select the image file you wish to transfer.
+* Under *Storage*, click *Choose storage*.
+* Select the SD card you want to write to.
+* Click *Write* to start writing. **Existing data on the SD card will be erased**. Click *Yes* to confirm.
+* The SD card can now be used on the ST.
+
+#### Setting date and time
 In ACSI mode, ACSI2STM emulates an UltraSatan clock, so you can use UltraSatan tools such as `US_SETCL.PRG` and `US_GETCL.PRG`. GemDrive mode also responds to UltraSatan clock queries as a convenience.
 When the system is switched off, the STM32 clock is powered by the onboard CR2032 battery so it will keep time even when powered off.
+
+
  
-If you want to do more than using microSD card in GemDrive mode, and how to use the card, please refer to the following links:
+If you want to do more than using microSD card in GemDrive mode, and how to use the card in general, please refer to the following links:
 
 How to insert a battery https://youtu.be/rgAsQ0IYjlg
 
