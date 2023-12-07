@@ -1,20 +1,22 @@
 # ACSI2STM-Guide De Démarrage Rapide.
 
-Ce documents explique au plus simple, les étapes recommandées pour faire fonctionner la carte ACSI2STM.
+Ce documents explique, au plus simple, les étapes recommandées pour faire fonctionner la carte ACSI2STM.
 
 ## 1 - Pile pour la sauvegarde de la date/heurey
 
 Avant d’installer la carte, vous pouvez inserer une pile CR2032 dans le support de pile. La pile est utilisée pour la sauvegarde de la date et de l’heure quand l’Atari ST est etteint. Elle n’est pas necessaire au fonctionnement de la partir disque.
 
+
 ## 2 - Installation sur le port ACSI DB19
-•	Branchez la carte sur le port ACSI à l’arrière du ST. La face avec les composants vers vous.
-•	Branchez une source 5V sur la prise USB-C de la carte. Vous pouvez utiliser un charge de téléphone avec un câble USB-C.
+*	Branchez la carte sur le port ACSI à l’arrière du ST. La face avec les composants vers vous.
+*	Branchez une source 5V sur la prise USB-C de la carte. Vous pouvez utiliser un charge de téléphone avec un câble USB-C.
+
 
 ## 3A - Utilisation d'une carte microSD au format FAT32 en mode GemDrive.
 
 Vous pouvez utiliser une carte microSD formattée en FAT ou FAT32 sans autre action. Ce fonctionnement est nommé GemDrive. C'est le plus simple à mettre en oeuvre. Vous n'avez pas besoin de driver.
 La carte microSd est lisible sur Windows (pour transférer des fichiers entre Atari et PC par exemple).
-Ce mode GemDrive fonctionne bien sur Atari ST, STE, Mega ST et Mega STE avec un TOS egal ou supérieure à 1.04. Il n'a pas été testé sur Atari TT030 et Falcon030. Le mode GemDrive peut ne pas fnctionner sur Atari TT030 et Falcon030.
+Ce mode GemDrive fonctionne bien sur Atari ST, STE, Mega ST et Mega STE avec un TOS egal ou supérieure à 1.04. Il n'a pas été testé sur Atari TT030 et Falcon030. Le mode GemDrive peut ne pas fonctionner sur Atari TT030 et Falcon030.
 
 ### 3A1 - Changer la date et l'heure
 En mode GemDrive, vous pouvez utiliser les outils comme `CONTROL.ACC` ou `XCONTROL.ACC`. Le mode GemDrive renvoi tous les appels systèmes liés à la date/heure vers le STM32.
