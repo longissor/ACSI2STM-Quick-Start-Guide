@@ -4,30 +4,30 @@ ACSI2STM Quick start guide
 This document explains the steps to get the recommended hardware and software as quickly and as simply as possible.
  
 Installing the PCB
-### Backup battery
+### 1 - Backup battery
 Before installing, insert a CR2032 battery in the socket. The battery is only needed for keeping the clock running when the ST is off.
 See this video on how to insert the battery: 
  
-### Installing on the DB19 port
+### 2 - Installing on the DB19 port
 * Plug the unit on the back of the ST, components toward the keyboard.  The mounting holes of the Hard Disk socket should be aligned.
 * Put some screws to hold the unit in place (optional).  If you need screws, you can unscrew the hex screws of the Modem or Printer socket.
 * Power the unit via the USB-C port.
 * Optionally, you can plug other devices such as an UltraSatan on the IDC20  socket.
- 
-### Using microSD card formated in FAT32 in GemDrive mode
+
+### 3A - Using microSD card formated in FAT32 in GemDrive mode
 Using Fat and Fat32 microSD cards without any other action is known as “GemDrive” mode. This is the easiest way to use the card. It does not require any driver. The microSD card will be usable on a Windows PC (to transfer files to your Atari for example).
 This mode has been tested and known to be working well on Atari ST, STE, Mega ST and Mega STE with TOS equal or above 1.04
 That mode has not been tested on Atari TT030 and Falcon030. The TOS on these machines may not work in GemDrive mode.
  
-#### Setting date and time
+#### 3A.1 - Setting date and time
 In GemDrive mode, you can use any tool to set the date, such as `CONTROL.ACC` or `XCONTROL.ACC`. GemDrive redirects all system calls to the STM32 so the internal clock isn't used anymore.
 
-### Using microSD card ACSI mode
+### 3B - Using microSD card ACSI mode
 Use a ready-made ACSI disk image
 If you have a bootable hard disk image, the following sections will describe how to use it.
 
 
-#### Using the image directly
+#### 3B.1 - Using the image directly
 * Use a SD card formatted for PC (FAT32/ExFAT).
 * Create a folder named `acsi2stm` at the root of the SD card.
 * Copy your image inside that folder.
@@ -41,7 +41,7 @@ When working with disk images, the SD card can be of any size, as long as it use
 
 You can copy more than one disk image `xxxxx.img` on to the SD card, but only `hd0.img` will be used.
 
-#### Transfering a disk image to a raw SD card
+#### 3B.2 - Transfering a disk image to a raw SD card
 
 Using a raw SD card is a bit faster than copying the image file.
 
@@ -57,7 +57,7 @@ To transfer images to the disk, you can use
 * Click *Write* to start writing. **Existing data on the SD card will be erased**. Click *Yes* to confirm.
 * The SD card can now be used on the ST.
 
-#### Setting date and time
+#### 3B.3 - Setting date and time
 In ACSI mode, ACSI2STM emulates an UltraSatan clock, so you can use UltraSatan tools such as `US_SETCL.PRG` and `US_GETCL.PRG`. GemDrive mode also responds to UltraSatan clock queries as a convenience.
 When the system is switched off, the STM32 clock is powered by the onboard CR2032 battery so it will keep time even when powered off.
 
