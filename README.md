@@ -82,4 +82,7 @@ Atari ST pages by PP https://atari.8bitchip.info/
 
 Disk Image with ICD driver http://joo.kie.sk/?page_id=332
 
+How to launch ST disk images (Games) from the HD: https://atari.8bitchip.info/imgrun.php
+
+
  
