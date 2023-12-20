@@ -2,7 +2,9 @@
 ---------------------------- 
 
 
-This document explains the steps to get the recommended hardware and software as quickly and as simply as possible.
+This document explains the steps to get the recommended hardware and software as quickly and as simply as possible. This GitHub repository is specific to the ACSI2STM card I am selling via EBay, Facebook and LeBonCoin.
+See the `Photos` folder for the picture of the actual device.
+If you built your own card or bought it from someone else, please refer to the ACSI2STM GitHub https://github.com/retro16/acsi2stm
  
 Installing the PCB
 ### 1 - Backup battery
