@@ -4,7 +4,7 @@ This short guide explain how to prepar, partition and format a microSD using `Di
 This way sometime works better than using Windows GUI
 
 1. Insert your SD card into your computer SD card reader.
-1. On Windows bar, search CMD to find the `Command Prompt` and execute it.
+1. On Windows bar, search CMD to find the `Command Prompt` and run it as administrator (right click then select run as administrator).
 1. Type `diskpart` then enter
 1. List all hard drives: type `list disk` then enter.
 1. Look for your SD card number.
@@ -22,7 +22,7 @@ Ce petit guide explique comment préparer, partitionner et formater une microSD 
 Cette méthode fonctionne parfois mieux que l'utilisation de l'interface graphique Windows
 
 1. Insérez votre carte SD dans le lecteur de carte SD de votre ordinateur.
-1. Dans la barre Windows, recherchez CMD pour trouver l'`Invite de commandes` et exécutez-la.
+1. Dans la barre Windows, recherchez CMD pour trouver l'`Invite de commandes` et exécutez-la en temps qu'administrateur.
 1. Tapez `diskpart` puis Retour
 1. Listez tous les disques durs : tapez `list disk` puis Retour.
 1. Recherchez votre numéro de carte SD.
