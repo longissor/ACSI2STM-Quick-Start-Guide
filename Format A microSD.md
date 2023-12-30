@@ -9,7 +9,7 @@ This way sometime works better than using Windows GUI
 1. List all hard drives: type `list disk` then enter.
 1. Look for your SD card number.
 1. Type `select disk x` where x is your microSD card number. Then enter.
-1. Type `[clean al` then enter. All data/partitions will now be deleted.
+1. Type `clean all` then enter. All data/partitions will now be deleted.
 1. Now create a new partition. Type `create partition primary size=32` then enter. This will now create a 32MB partition.
 1. Finally, type `active` then enter. This partition will be marked as active.
 1. Now format the drive under Windows.
@@ -27,7 +27,7 @@ Cette méthode fonctionne parfois mieux que l'utilisation de l'interface graphiq
 1. Listez tous les disques durs : tapez `list disk` puis Retour.
 1. Recherchez votre numéro de carte SD.
 1. Tapez `select disk x` où x est le numéro de votre carte microSD. Puis Retour.
-1. Tapez `clean al` puis Retour. Toutes les données/partitions seront désormais supprimées.
+1. Tapez `clean all` puis Retour. Toutes les données/partitions seront désormais supprimées.
 1. Créez maintenant une nouvelle partition. Tapez `create partition primary size=32` puis Retour. Cela va maintenant créer une partition de 32 Mo.
 1. Enfin, tapez `active` puis Retour. Cette partition sera marquée comme active.
 1. Formatez maintenant le disque sous Windows.
