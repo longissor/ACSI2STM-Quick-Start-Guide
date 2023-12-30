@@ -31,3 +31,7 @@ Cette méthode fonctionne parfois mieux que l'utilisation de l'interface graphiq
 1. Créez maintenant une nouvelle partition. Tapez `create partition primary size=32` puis Retour. Cela va maintenant créer une partition de 32 Mo.
 1. Enfin, tapez `active` puis Retour. Cette partition sera marquée comme active.
 1. Formatez maintenant le disque sous Windows.
+
+
+-----------------------------------
+![Alt text](https://github.com/longissor/ACSI2STM-Quick-Start-Guide/blob/main/Format%20A%20microSD%20with%20Diskpart.jpg)
