@@ -1,5 +1,8 @@
 # ACSI2STM-Quick-Start-Guide
 ---------------------------- 
+Where to buy:  
+https://www.ebay.fr/itm/235325745251  
+https://www.etsy.com/listing/1632522429/acsi2stm-hard-drive-emulator-for-atari  
 
 
 This document explains the steps to get the recommended hardware and software as quickly and as simply as possible. 
