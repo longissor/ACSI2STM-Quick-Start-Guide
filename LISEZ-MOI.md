@@ -80,9 +80,9 @@ quand le système est éteint, la pile CR2032 garde l'horloge active.
 
 Si vous voulez en savoir plus sur les options et les modes ACSI ou GemDrive, veuillez vous diriger vers ces liens (en Anglais):
 
-* Comment insérer la pile CR2032 https://youtu.be/rgAsQ0IYjlg
-* Le site GitHub principale sur ACSI2STM  https://github.com/retro16/acsi2stm
-* Une page Atari ST par PP https://atari.8bitchip.info/
-* Une image de carte SD avec le driver  http://joo.kie.sk/?page_id=332
-* Commet lancer une image de disquette ST depuis le disque: https://atari.8bitchip.info/imgrun.php
-* 
+* Comment insérer la pile CR2032 https://youtu.be/rgAsQ0IYjlg  
+* Le site GitHub principale sur ACSI2STM  https://github.com/retro16/acsi2stm  
+* Une page Atari ST par PP https://atari.8bitchip.info/  
+* Une image de carte SD avec le driver  http://joo.kie.sk/?page_id=332  
+* Commet lancer une image de disquette ST depuis le disque: https://atari.8bitchip.info/imgrun.php  
+* Pages Atari WIKI: https://www.atari-wiki.com/  
