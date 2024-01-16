@@ -81,15 +81,12 @@ When the system is switched off, the STM32 clock is powered by the onboard CR203
  
 If you want to do more than using microSD card in GemDrive mode, and how to use the card in general, please refer to the following links:
 
-How to insert a battery https://youtu.be/rgAsQ0IYjlg
-
-ACSI2STM GitHub https://github.com/retro16/acsi2stm
-
-Atari ST pages by PP https://atari.8bitchip.info/
-
-Disk Image with ICD driver http://joo.kie.sk/?page_id=332
-
-How to launch ST disk images (Games) from the HD: https://atari.8bitchip.info/imgrun.php
+How to insert a battery https://youtu.be/rgAsQ0IYjlg  
+ACSI2STM GitHub https://github.com/retro16/acsi2stm  
+Atari ST pages by PP https://atari.8bitchip.info/  
+Disk Image with ICD driver http://joo.kie.sk/?page_id=332  
+How to launch ST disk images (Games) from the HD: https://atari.8bitchip.info/imgrun.php  
+Atari Wiki Pages: https://www.atari-wiki.com/  
 
 
  
