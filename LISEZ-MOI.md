@@ -6,7 +6,7 @@ Attention: Ce GitHub est spécifique pour la carte ACSI2STM que je vends sur EBa
 Voir le répertoire `Photos` pour les images de ma version.
 Si vous avez construis votre propre carte ou vous l'avez acheté ailleurs, veuillez vous diriger vers le GitHub officiel https://github.com/retro16/acsi2stm
 
-## 1 - Pile pour la sauvegarde de la date/heurey
+## 1 - Pile pour la sauvegarde de la date/heure
 
 Avant d’installer la carte, vous pouvez inserer une pile CR2032 dans le support de pile. La pile est utilisée pour la sauvegarde de la date et de l’heure quand l’Atari ST est etteint. Elle n’est pas necessaire au fonctionnement de la partir disque.
 
