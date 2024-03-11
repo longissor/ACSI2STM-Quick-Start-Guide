@@ -1,7 +1,14 @@
 # ACSI2STM-Quick-Start-Guide
+
+***
+#  This documentation is not updated anymore.
+#  Please visite https://www.16-32bit.eu/acsi2smt 
+***
+
 ---------------------------- 
 Where to buy:  
 https://www.ebay.fr/itm/235325745251  
+https://www.16-32bit.eu/shop
 https://www.etsy.com/listing/1632522429/acsi2stm-hard-drive-emulator-for-atari  
 
 
